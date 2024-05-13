@@ -1,0 +1,261 @@
+<html>
+
+    <head>
+
+        <meta charset="UFT-8">
+
+        <title>Minha primeira página WEB</title>
+        <style>
+            /* Criando uma CLASSE
+                .header{
+                    backgriund-color: black;
+                }
+                Criando um ID - identificador
+                #header{
+                    text-aling:center;
+                }
+                Manipulando a TAG HTML
+                header{
+                    color:white;
+                }
+                */
+            .header {
+                background-color: rgb(86, 120, 182);
+                text-align: center;
+            }
+            .tabela{
+                float:left;
+                width:50%;
+                background-color: aquamarine;
+            }
+            .lista{
+                float:right;
+                width:50%;
+                background-color: blueviolet;
+            }
+            .paragrafo1{
+                display:flex;
+            }
+            .paragrafo-texto{
+                margin: 20px 0px 20px;
+            }
+
+            .form input{
+                width:100%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .form textarea,select{
+                width:100%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .form{
+                width:50%;
+                margin-left: 25%;
+            }
+            .select{
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                margin-top:20px;
+                margin-bottom:20px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div style="width:auto">
+
+            <header class="header">
+
+                <h1>HTML<sup>Linguagem de Marcação de HiperTexto</sup></h1>
+                <h2>Tutoriais para iniciantes</b></h2>
+
+            </header>
+
+
+
+            <section class="paragrafo1 paragrafo-texto">
+
+                <img align="left" width="68px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-
+
+                HTML5_logo_and_wordmark.svg.png">
+
+                <p><ins>HTML</ins><i>(Linguagem de Marcação de HiperTexto)</i>é bloco de construção mais básico da
+
+                    web.<mark>Define o
+
+                        significado e
+
+                        a estrutura do conteúdo da web.</mark> Outras tecnologias além do HTML geralmente são usadas para
+                    descrever
+
+                    a aparência/apresentação (CSS) ou a funcionalidade/comportamento<em>(JavaScript)</em>de uma página da
+                    web.
+                </p>
+
+            </section>
+
+            <section class="paragrafo1">
+
+
+
+            <section class="tabela">
+
+                <hr>
+
+                <p>
+
+                <table border="2">
+
+                    <thead>
+
+                        <tr>
+
+                            <th COLSPAN="2">Tabela de TAGS HTML</th>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>TAG</th>
+
+                            <th>UTILIDADE</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>HTML</td>
+
+                            <td>Defini o escopo de um documento HTML</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>P</td>
+
+                            <td>Principal tag de texto, compõe um parágrafo</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>B</td>
+
+                            <td>Transforma o conteúdo em <strong>negrito</strong></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>I</td>
+
+                            <td>Transforma o conteúdo em <i>itálico</i></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>BODY</td>
+
+                            <td>Representa o corpo do documento</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>TITLE</td>
+
+                            <td>Defini o título da sua página, o nome que aparecerá na sua aba, janela ou guia</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>META</td>
+
+                            <td>Permite inserir metadados ao seu documento</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>IMG</td>
+
+                            <td>Inclui uma imagem ao seu texto, utiliza o atributo scr="" e não necessita de fechamento</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+
+
+            <section class="lista">
+
+
+                <ol type="">
+                    <h3>Top 5 protocolos</h3>
+
+                    <li>HTTP;</li>
+
+                    <li>HTTPS;</li>
+
+                    <li>TCP/IP;</li>
+
+                    <li>FTP;</li>
+
+                    <li>SMTP;</li>
+
+                    <li>POP3</li>
+
+                </ol>
+
+            </section>
+
+            </section>
+
+            <section class="paragrafo1 form">
+                <form method="post" action="OBRIGADO.html">
+                    <br>
+                    <label>Nome:</label>
+                    <input type="text" name="nome" required>
+
+                    <label>Email:</label>
+                    <input type="email" name="email" required>
+
+                    <label>Idade:</label>
+                    <input type="number" name="Idade" min="0" required>
+
+                    <label>Assunto:</label>
+                    <select name="Assunto" required>
+                        <option valeu="Sugestão"> Sugestão</option>
+                        <option valeu="Reclamação"> Reclamação</option>
+                        <option valeu="Elogio" selected>Elogio</option>
+                    </select>
+
+                    <label>Mensagem:</label>
+                    <textarea name="Mensagem"></textarea>
+
+                    <label>Concordo com os termos de privacidade do site</label>
+                    <input type="checkbox" name="termo" valeu="aceito" required>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Apagar</button>
+
+                </form>
+            </section>
+        </div>
+
+    </body>
+
+
+
+</html>
